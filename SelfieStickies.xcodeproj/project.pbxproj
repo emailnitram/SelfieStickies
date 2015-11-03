@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F55801DA1BE85A2600C51596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F55801D91BE85A2600C51596 /* main.m */; };
+		F55801DD1BE85A2600C51596 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F55801DC1BE85A2600C51596 /* AppDelegate.m */; };
+		F55801E01BE85A2600C51596 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55801DF1BE85A2600C51596 /* ViewController.m */; };
+		F55801E31BE85A2600C51596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55801E11BE85A2600C51596 /* Main.storyboard */; };
+		F55801E51BE85A2600C51596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55801E41BE85A2600C51596 /* Assets.xcassets */; };
+		F55801E81BE85A2600C51596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55801E61BE85A2600C51596 /* LaunchScreen.storyboard */; };
+		F55801F31BE85A2600C51596 /* SelfieStickiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F55801F21BE85A2600C51596 /* SelfieStickiesTests.m */; };
+		F55801FE1BE85A2600C51596 /* SelfieStickiesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F55801FD1BE85A2600C51596 /* SelfieStickiesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F55801EF1BE85A2600C51596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55801CD1BE85A2600C51596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55801D41BE85A2600C51596;
+			remoteInfo = SelfieStickies;
+		};
+		F55801FA1BE85A2600C51596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55801CD1BE85A2600C51596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55801D41BE85A2600C51596;
+			remoteInfo = SelfieStickies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F55801D51BE85A2600C51596 /* SelfieStickies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfieStickies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55801D91BE85A2600C51596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F55801DB1BE85A2600C51596 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F55801DC1BE85A2600C51596 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F55801DE1BE85A2600C51596 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F55801DF1BE85A2600C51596 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F55801E21BE85A2600C51596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F55801E41BE85A2600C51596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F55801E71BE85A2600C51596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F55801E91BE85A2600C51596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55801EE1BE85A2600C51596 /* SelfieStickiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfieStickiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55801F21BE85A2600C51596 /* SelfieStickiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfieStickiesTests.m; sourceTree = "<group>"; };
+		F55801F41BE85A2600C51596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55801F91BE85A2600C51596 /* SelfieStickiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfieStickiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55801FD1BE85A2600C51596 /* SelfieStickiesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfieStickiesUITests.m; sourceTree = "<group>"; };
+		F55801FF1BE85A2600C51596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F55801D21BE85A2600C51596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55801EB1BE85A2600C51596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55801F61BE85A2600C51596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F55801CC1BE85A2600C51596 = {
+			isa = PBXGroup;
+			children = (
+				F55801D71BE85A2600C51596 /* SelfieStickies */,
+				F55801F11BE85A2600C51596 /* SelfieStickiesTests */,
+				F55801FC1BE85A2600C51596 /* SelfieStickiesUITests */,
+				F55801D61BE85A2600C51596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F55801D61BE85A2600C51596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F55801D51BE85A2600C51596 /* SelfieStickies.app */,
+				F55801EE1BE85A2600C51596 /* SelfieStickiesTests.xctest */,
+				F55801F91BE85A2600C51596 /* SelfieStickiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F55801D71BE85A2600C51596 /* SelfieStickies */ = {
+			isa = PBXGroup;
+			children = (
+				F55801DB1BE85A2600C51596 /* AppDelegate.h */,
+				F55801DC1BE85A2600C51596 /* AppDelegate.m */,
+				F55801DE1BE85A2600C51596 /* ViewController.h */,
+				F55801DF1BE85A2600C51596 /* ViewController.m */,
+				F55801E11BE85A2600C51596 /* Main.storyboard */,
+				F55801E41BE85A2600C51596 /* Assets.xcassets */,
+				F55801E61BE85A2600C51596 /* LaunchScreen.storyboard */,
+				F55801E91BE85A2600C51596 /* Info.plist */,
+				F55801D81BE85A2600C51596 /* Supporting Files */,
+			);
+			path = SelfieStickies;
+			sourceTree = "<group>";
+		};
+		F55801D81BE85A2600C51596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F55801D91BE85A2600C51596 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F55801F11BE85A2600C51596 /* SelfieStickiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F55801F21BE85A2600C51596 /* SelfieStickiesTests.m */,
+				F55801F41BE85A2600C51596 /* Info.plist */,
+			);
+			path = SelfieStickiesTests;
+			sourceTree = "<group>";
+		};
+		F55801FC1BE85A2600C51596 /* SelfieStickiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F55801FD1BE85A2600C51596 /* SelfieStickiesUITests.m */,
+				F55801FF1BE85A2600C51596 /* Info.plist */,
+			);
+			path = SelfieStickiesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F55801D41BE85A2600C51596 /* SelfieStickies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55802021BE85A2600C51596 /* Build configuration list for PBXNativeTarget "SelfieStickies" */;
+			buildPhases = (
+				F55801D11BE85A2600C51596 /* Sources */,
+				F55801D21BE85A2600C51596 /* Frameworks */,
+				F55801D31BE85A2600C51596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfieStickies;
+			productName = SelfieStickies;
+			productReference = F55801D51BE85A2600C51596 /* SelfieStickies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F55801ED1BE85A2600C51596 /* SelfieStickiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55802051BE85A2600C51596 /* Build configuration list for PBXNativeTarget "SelfieStickiesTests" */;
+			buildPhases = (
+				F55801EA1BE85A2600C51596 /* Sources */,
+				F55801EB1BE85A2600C51596 /* Frameworks */,
+				F55801EC1BE85A2600C51596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55801F01BE85A2600C51596 /* PBXTargetDependency */,
+			);
+			name = SelfieStickiesTests;
+			productName = SelfieStickiesTests;
+			productReference = F55801EE1BE85A2600C51596 /* SelfieStickiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F55801F81BE85A2600C51596 /* SelfieStickiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55802081BE85A2600C51596 /* Build configuration list for PBXNativeTarget "SelfieStickiesUITests" */;
+			buildPhases = (
+				F55801F51BE85A2600C51596 /* Sources */,
+				F55801F61BE85A2600C51596 /* Frameworks */,
+				F55801F71BE85A2600C51596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55801FB1BE85A2600C51596 /* PBXTargetDependency */,
+			);
+			name = SelfieStickiesUITests;
+			productName = SelfieStickiesUITests;
+			productReference = F55801F91BE85A2600C51596 /* SelfieStickiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F55801CD1BE85A2600C51596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Martin Henry";
+				TargetAttributes = {
+					F55801D41BE85A2600C51596 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F55801ED1BE85A2600C51596 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F55801D41BE85A2600C51596;
+					};
+					F55801F81BE85A2600C51596 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F55801D41BE85A2600C51596;
+					};
+				};
+			};
+			buildConfigurationList = F55801D01BE85A2600C51596 /* Build configuration list for PBXProject "SelfieStickies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F55801CC1BE85A2600C51596;
+			productRefGroup = F55801D61BE85A2600C51596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F55801D41BE85A2600C51596 /* SelfieStickies */,
+				F55801ED1BE85A2600C51596 /* SelfieStickiesTests */,
+				F55801F81BE85A2600C51596 /* SelfieStickiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F55801D31BE85A2600C51596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55801E81BE85A2600C51596 /* LaunchScreen.storyboard in Resources */,
+				F55801E51BE85A2600C51596 /* Assets.xcassets in Resources */,
+				F55801E31BE85A2600C51596 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55801EC1BE85A2600C51596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55801F71BE85A2600C51596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F55801D11BE85A2600C51596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55801E01BE85A2600C51596 /* ViewController.m in Sources */,
+				F55801DD1BE85A2600C51596 /* AppDelegate.m in Sources */,
+				F55801DA1BE85A2600C51596 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55801EA1BE85A2600C51596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55801F31BE85A2600C51596 /* SelfieStickiesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55801F51BE85A2600C51596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55801FE1BE85A2600C51596 /* SelfieStickiesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F55801F01BE85A2600C51596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55801D41BE85A2600C51596 /* SelfieStickies */;
+			targetProxy = F55801EF1BE85A2600C51596 /* PBXContainerItemProxy */;
+		};
+		F55801FB1BE85A2600C51596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55801D41BE85A2600C51596 /* SelfieStickies */;
+			targetProxy = F55801FA1BE85A2600C51596 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F55801E11BE85A2600C51596 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55801E21BE85A2600C51596 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F55801E61BE85A2600C51596 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55801E71BE85A2600C51596 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F55802001BE85A2600C51596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F55802011BE85A2600C51596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F55802031BE85A2600C51596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SelfieStickies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mh.SelfieStickies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F55802041BE85A2600C51596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SelfieStickies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mh.SelfieStickies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F55802061BE85A2600C51596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SelfieStickiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mh.SelfieStickiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfieStickies.app/SelfieStickies";
+			};
+			name = Debug;
+		};
+		F55802071BE85A2600C51596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SelfieStickiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mh.SelfieStickiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfieStickies.app/SelfieStickies";
+			};
+			name = Release;
+		};
+		F55802091BE85A2600C51596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SelfieStickiesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mh.SelfieStickiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SelfieStickies;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F558020A1BE85A2600C51596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SelfieStickiesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mh.SelfieStickiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SelfieStickies;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F55801D01BE85A2600C51596 /* Build configuration list for PBXProject "SelfieStickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55802001BE85A2600C51596 /* Debug */,
+				F55802011BE85A2600C51596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55802021BE85A2600C51596 /* Build configuration list for PBXNativeTarget "SelfieStickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55802031BE85A2600C51596 /* Debug */,
+				F55802041BE85A2600C51596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F55802051BE85A2600C51596 /* Build configuration list for PBXNativeTarget "SelfieStickiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55802061BE85A2600C51596 /* Debug */,
+				F55802071BE85A2600C51596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F55802081BE85A2600C51596 /* Build configuration list for PBXNativeTarget "SelfieStickiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55802091BE85A2600C51596 /* Debug */,
+				F558020A1BE85A2600C51596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F55801CD1BE85A2600C51596 /* Project object */;
+}

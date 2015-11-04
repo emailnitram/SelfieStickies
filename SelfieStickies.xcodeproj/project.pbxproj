@@ -15,6 +15,7 @@
 		F55801E81BE85A2600C51596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55801E61BE85A2600C51596 /* LaunchScreen.storyboard */; };
 		F55801F31BE85A2600C51596 /* SelfieStickiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F55801F21BE85A2600C51596 /* SelfieStickiesTests.m */; };
 		F55801FE1BE85A2600C51596 /* SelfieStickiesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F55801FD1BE85A2600C51596 /* SelfieStickiesUITests.m */; };
+		F55802101BE85DF500C51596 /* Stickers.m in Sources */ = {isa = PBXBuildFile; fileRef = F558020F1BE85DF500C51596 /* Stickers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F55801F91BE85A2600C51596 /* SelfieStickiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfieStickiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55801FD1BE85A2600C51596 /* SelfieStickiesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfieStickiesUITests.m; sourceTree = "<group>"; };
 		F55801FF1BE85A2600C51596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F558020E1BE85DF500C51596 /* Stickers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stickers.h; path = ../Stickers.h; sourceTree = "<group>"; };
+		F558020F1BE85DF500C51596 /* Stickers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stickers.m; path = ../Stickers.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		F55801D71BE85A2600C51596 /* SelfieStickies */ = {
 			isa = PBXGroup;
 			children = (
+				F558020E1BE85DF500C51596 /* Stickers.h */,
+				F558020F1BE85DF500C51596 /* Stickers.m */,
 				F55801DB1BE85A2600C51596 /* AppDelegate.h */,
 				F55801DC1BE85A2600C51596 /* AppDelegate.m */,
 				F55801DE1BE85A2600C51596 /* ViewController.h */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					F55801D41BE85A2600C51596 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = UR4GGS4V92;
 					};
 					F55801ED1BE85A2600C51596 = {
 						CreatedOnToolsVersion = 7.1;
@@ -271,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F55801E01BE85A2600C51596 /* ViewController.m in Sources */,
+				F55802101BE85DF500C51596 /* Stickers.m in Sources */,
 				F55801DD1BE85A2600C51596 /* AppDelegate.m in Sources */,
 				F55801DA1BE85A2600C51596 /* main.m in Sources */,
 			);
@@ -413,10 +420,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SelfieStickies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mh.SelfieStickies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +434,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SelfieStickies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mh.SelfieStickies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
